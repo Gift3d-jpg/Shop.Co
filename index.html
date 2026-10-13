@@ -38,7 +38,7 @@
       <div class="promo-bar" role="note" aria-label="Promotional offer">
         <p class="promo-text">
           Sign up and get 20% off to your first order.
-          <a href="#signup" class="promo-link">Sign Up Now</a>
+          <a class="promo-link" href="sign-up.html">Sign Up Now</a>
         </p>
         <button class="promo-close" type="button" aria-label="Close promotion">
           <ion-icon name="close"></ion-icon>
@@ -125,7 +125,7 @@
               of style.
             </p>
 
-            <a href="#shop" class="btn">Shop now</a>
+            <a href="#cta" class="btn">Shop now</a>
           </div>
 
           <div class="hero-stats">
@@ -177,7 +177,7 @@
         <div class="new-arrivals">
           <h2 class="arrivals-header">New Arrivals</h2>
 
-          <ul class="arrivals-list">
+          <ul class="arrivals-list" id="arrivals-products">
             <li class="arrivals-item">
               <div class="arrivals-info">
                 <img
@@ -269,7 +269,14 @@
               </div>
             </li>
           </ul>
-          <button class="btn-products" type="button">View all</button>
+          <button
+            class="btn-products"
+            type="button"
+            aria-expanded="false"
+            aria-controls="arrivals-products"
+          >
+            View all
+          </button>
         </div>
       </section>
 
@@ -277,7 +284,7 @@
         <div class="top-selling">
           <h2 class="selling-header">Top Selling</h2>
 
-          <ul class="top-selling-list">
+          <ul class="top-selling-list" id="selling-products">
             <li class="top-selling-item">
               <div class="top-selling-info">
                 <img
@@ -360,7 +367,14 @@
               </div>
             </li>
           </ul>
-          <button class="btn-products" type="button">View all</button>
+          <button
+            class="btn-products"
+            type="button"
+            aria-expanded="false"
+            aria-controls="selling-products"
+          >
+            View all
+          </button>
         </div>
       </section>
 
@@ -407,11 +421,24 @@
           OUR HAPPY<br class="testimonial-title-break" />
           CUSTOMERS
           <span class="testimonial-borders">
-            <button class="arrow-btn" type="button" data-testimonial-scroll="prev" aria-label="Previous testimonials">
+            <button
+              class="arrow-btn"
+              type="button"
+              data-testimonial-scroll="prev"
+              aria-label="Previous testimonials"
+            >
               <ion-icon name="arrow-back-outline" aria-hidden="true"></ion-icon>
             </button>
-            <button class="arrow-btn" type="button" data-testimonial-scroll="next" aria-label="Next testimonials">
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            <button
+              class="arrow-btn"
+              type="button"
+              data-testimonial-scroll="next"
+              aria-label="Next testimonials"
+            >
+              <ion-icon
+                name="arrow-forward-outline"
+                aria-hidden="true"
+              ></ion-icon>
             </button>
           </span>
         </h2>
@@ -546,7 +573,9 @@
                   required
                 />
               </div>
-              <button class="cta-btn">Subscribe to Newsletter</button>
+              <a class="cta-btn" href="sign-up.html">
+                Subscribe to Newsletter
+              </a>
             </form>
           </div>
         </section>

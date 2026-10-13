@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign up | Shop.Co</title>
+    <link rel="stylesheet" href="sign-up.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="signup" aria-labelledby="signup-title">
+        <a class="brand" href="#"
+          ><span class="mark" aria-hidden="true">✦</span>Shop.Co</a
+        >
+        <p class="eyebrow">A little something is on the way ✨</p>
+        <h1 id="signup-title">Good things<br />are <span>coming.</span></h1>
+        <p class="intro">
+          Be first to know when we open our doors. Sign up for a friendly little
+          update—no noise, just the good stuff.
+        </p>
+        <form id="signup-form">
+          <div class="field">
+            <label for="name">Your name</label
+            ><input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="e.g. Chinedu Adeyemi"
+              autocomplete="given-name"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="email">Email address</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <button class="signup-submit" type="submit">
+            Count me in <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="fine">
+            By signing up, you agree to receive launch updates. Unsubscribe
+            anytime. 🌱
+          </p>
+        </form>
+      </section>
+      <section
+          id="success"
+          aria-labelledby="success-title"
+          aria-live="polite"
+          hidden
+      >
+          <div class="party" aria-hidden="true">
+            🎉<span class="spark one">✨</span><span class="spark two">✦</span>
+          </div>
+          <p class="eyebrow">You're on the list!</p>
+          <h1 id="success-title">Coming<br /><span>soon!</span></h1>
+          <p class="intro">
+            Thanks for joining us, <strong id="welcome-name">friend</strong>! Keep
+            an eye on your inbox—we can't wait to share what's next.
+          </p>
+          <button class="again" id="again" type="button">
+            ← Add another email
+          </button>
+      </section>
+    </main>
+  </body>
+</html>

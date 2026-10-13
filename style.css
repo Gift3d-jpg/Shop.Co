@@ -806,6 +806,7 @@ p {
 }
 
 .cta-btn {
+  display: flex;
   height: 4.8rem;
   width: 35rem;
   padding: 1.2rem 1.6rem;
@@ -818,6 +819,7 @@ p {
   cursor: pointer;
   font-size: 1.4rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .cta-btn :hover,
