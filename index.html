@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Shop.Co is a modern e-commerce landing page for fashion essentials and on-trend clothing."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      defer
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Shop.Co &mdash; fashion and more</title>
+  </head>
+  <body>
+    <main>
+      <div class="promo-bar" role="note" aria-label="Promotional offer">
+        <p class="promo-text">
+          Sign up and get 20% off to your first order.
+          <a href="#signup" class="promo-link">Sign Up Now</a>
+        </p>
+        <button class="promo-close" type="button" aria-label="Close promotion">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </div>
+
+      <section class="hero-section">
+        <div class="container-hero">
+          <header class="header">
+            <button
+              class="btn-mobile-nav"
+              type="button"
+              aria-label="Toggle navigation"
+              aria-controls="primary-navigation"
+              aria-expanded="false"
+            >
+              <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+            <a class="logo-box" href="#" aria-label="Shop.Co home page">
+              <img
+                class="logo"
+                alt="SHOP.CO logo"
+                src="img--/images/SHOP.CO.svg"
+              />
+            </a>
+
+            <button
+              class="search-toggle"
+              type="button"
+              aria-label="Toggle search"
+              aria-controls="site-search"
+              aria-expanded="false"
+            >
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <nav class="main-nav" id="primary-navigation">
+              <ul class="main-nav-list">
+                <li>
+                  <a class="main-nav-link" href="#shop">
+                    Shop
+                    <ion-icon
+                      class="c-down"
+                      name="chevron-down-outline"
+                    ></ion-icon>
+                  </a>
+                </li>
+                <li><a class="main-nav-link" href="#selling">On sale</a></li>
+                <li>
+                  <a class="main-nav-link" href="#arrivals">New Arrivals</a>
+                </li>
+                <li><a class="main-nav-link" href="#style">Style</a></li>
+              </ul>
+
+              <form class="search-bar" id="site-search" role="search">
+                <span class="s-icon" aria-hidden="true">
+                  <ion-icon name="search-outline"></ion-icon>
+                </span>
+                <input
+                  class="search-input"
+                  type="search"
+                  placeholder="Search for products..."
+                />
+              </form>
+
+              <a href="#selling">
+                <button class="btn-nav" type="button">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+              </a>
+              <a href="#cta">
+                <button class="btn-nav" type="button">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                </button>
+              </a>
+            </nav>
+          </header>
+          <div class="hero-text-box">
+            <h1 class="hero-header">Find clothes that matches your style</h1>
+            <p>
+              Browse through our diverse range of meticulously crafted garments,
+              designed to bring out your individuality and cater to your sense
+              of style.
+            </p>
+
+            <a href="#shop" class="btn">Shop now</a>
+          </div>
+
+          <div class="hero-stats">
+            <p class="stats">
+              <span class="stats-number">200+</span> International Brands
+            </p>
+
+            <p class="stats">
+              <span class="stats-number">2,000+</span> High Quality Products
+            </p>
+
+            <p class="stats">
+              <span class="stats-number">30,000+</span> Happy Customers
+            </p>
+          </div>
+        </div>
+        <div class="hero-images">
+          <div class="img-full">
+            <img
+              class="hero-img-full"
+              alt="couples wearing black outfits"
+              src="img--//images/models/model-couple-black-outfits.webp"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="featured">
+          <span>
+            <img class="featured-designers" src="logos/versace.logo.svg" />
+          </span>
+          <span>
+            <img class="featured-designers" src="logos/zara.logo.svg" />
+          </span>
+          <span>
+            <img class="featured-designers" src="logos/gucci.svg" />
+          </span>
+          <span>
+            <img class="featured-designers" src="logos/prada.logo.svg" />
+          </span>
+          <span>
+            <img class="featured-designers" src="logos/cakvin.logo.svg" />
+          </span>
+        </div>
+      </section>
+
+      <section class="arrivals-section" id="arrivals">
+        <div class="new-arrivals">
+          <h2 class="arrivals-header">New Arrivals</h2>
+
+          <ul class="arrivals-list">
+            <li class="arrivals-item">
+              <div class="arrivals-info">
+                <img
+                  class="new-arrival-img"
+                  src="img--/images/products/new arrival1.webp"
+                />
+                <p class="arrivals-text">T-shirts with Tape Details</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon
+                  class="half-star-icon"
+                  name="star-half-sharp"
+                ></ion-icon>
+                <span class="rating-number">4.5/5</span>
+
+                <div class="sale-price-box">
+                  <span class="sale-price">$120</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="arrivals-item">
+              <div class="arrivals-info">
+                <img
+                  class="new-arrival-img"
+                  src="img--/images/products/new arrival2.webp"
+                />
+                <p class="arrivals-text">Skinny Fit Jeans</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon
+                  class="half-star-icon"
+                  name="star-half-sharp"
+                ></ion-icon>
+                <span class="rating-number">3.5/5</span>
+                <div class="sale-price-box">
+                  <span class="sale-price">$130</span>
+                  <span class="old-price">$160</span>
+                  <span class="discount">-30%</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="arrivals-item">
+              <div class="arrivals-info">
+                <img
+                  class="new-arrival-img"
+                  src="img--/images/products/new arrival3.webp"
+                />
+                <p class="arrivals-text">Checkered Shirt</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon
+                  class="half-star-icon"
+                  name="star-half-sharp"
+                ></ion-icon>
+                <span class="rating-number">4.5/5</span>
+                <div class="sale-price-box">
+                  <span class="sale-price">$180</span>
+                </div>
+              </div>
+            </li>
+            <li class="arrivals-item">
+              <div class="arrivals-info">
+                <img
+                  class="new-arrival-img"
+                  src="img--/images/products/new arrival4.webp"
+                />
+                <p class="arrivals-text">Sleeve Stripped T-Shirt</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon
+                  class="half-star-icon"
+                  name="star-half-sharp"
+                ></ion-icon>
+                <span class="rating-number">4.5/5</span>
+                <div class="sale-price-box">
+                  <span class="sale-price">$130</span>
+                  <span class="old-price">$160</span>
+                  <span class="discount">-30%</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-products" type="button">View all</button>
+        </div>
+      </section>
+
+      <section class="selling-section" id="selling">
+        <div class="top-selling">
+          <h2 class="selling-header">Top Selling</h2>
+
+          <ul class="top-selling-list">
+            <li class="top-selling-item">
+              <div class="top-selling-info">
+                <img
+                  class="top-selling-img"
+                  src="img--/images/products/top selling1.webp"
+                />
+                <p class="top-selling-text">Vertical Stripped Shirt</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <span class="rating-number">5.0/5</span>
+
+                <div class="sale-price-box">
+                  <span class="sale-price">$180</span>
+                  <span class="old-price">$200</span>
+                  <span class="discount">-10%</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="top-selling-item">
+              <div class="top-selling-info">
+                <img
+                  class="top-selling-img"
+                  src="img--/images/products/top selling2.webp"
+                />
+                <p class="top-selling-text">Courage Graphic T-Shirt</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+
+                <span class="rating-number">4.0/5</span>
+
+                <div class="sale-price-box">
+                  <span class="sale-price">$145</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="top-selling-item">
+              <div class="top-selling-info">
+                <img
+                  class="top-selling-img"
+                  src="img--/images/products/top selling3.webp"
+                />
+                <p class="top-selling-text">Loose Fit Bermuda Shorts</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+
+                <span class="rating-number">3.0/5</span>
+                <div class="sale-price-box">
+                  <span class="sale-price">$80</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="top-selling-item">
+              <div class="top-selling-info">
+                <img
+                  class="top-selling-img"
+                  src="img--/images/products/top selling4.webp"
+                />
+                <p class="top-selling-text">Faded Skinny Jeans</p>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon class="star-icon" name="star-sharp"></ion-icon>
+                <ion-icon
+                  class="half-star-icon"
+                  name="star-half-sharp"
+                ></ion-icon>
+                <span class="rating-number">4.5/5</span>
+                <div class="sale-price-box">
+                  <span class="sale-price">$80</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-products" type="button">View all</button>
+        </div>
+      </section>
+
+      <section class="dress-style" id="style">
+        <h2>BROWSE BY DRESS STYLE</h2>
+
+        <div class="dress-grid">
+          <div class="dress-card casual">
+            <img
+              src="img--/images/models/model-man-gray-tshirt.webp"
+              alt="Casual style"
+            />
+            <span>Casual</span>
+          </div>
+
+          <div class="dress-card formal">
+            <img
+              src="img--/images/models/model-man-blazer.webp"
+              alt="Formal style"
+            />
+            <span>Formal</span>
+          </div>
+
+          <div class="dress-card party">
+            <img
+              src="img--/images/models/model-woman-hat.webp"
+              alt="Party style"
+            />
+            <span>Party</span>
+          </div>
+
+          <div class="dress-card gym">
+            <img
+              src="img--/images/models/model-man-tank-top.webp"
+              alt="Gym style"
+            />
+            <span>Gym</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <h2 class="testimonial-title">
+          OUR HAPPY<br class="testimonial-title-break" />
+          CUSTOMERS
+          <span class="testimonial-borders">
+            <button class="arrow-btn">
+              <a class="arrow-btn" href="#">
+                <ion-icon name="arrow-back-outline"></ion-icon
+              ></a>
+            </button>
+            <button class="arrow-btn">
+              <a class="arrow-btn" href="#"
+                ><ion-icon name="arrow-forward-outline"></ion-icon
+              ></a>
+            </button>
+          </span>
+        </h2>
+
+        <div class="testimonials">
+          <ul class="testimonials-list">
+            <li class="testimmonials-text-box">
+              <figure class="testimonial">
+                <span class="t-icons">
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                </span>
+                <p class="testimonial-name">
+                  Daniel T.
+                  <ion-icon name="checkmark"></ion-icon>
+                </p>
+                <blockquote class="testimonial-text">
+                  “What I appreciate most about SHOP.CO is how wearable
+                  everything is. I can take a shirt from a relaxed weekend look
+                  to a dinner outfit with just a few small changes. That
+                  versatility is hard to find.”
+                </blockquote>
+              </figure>
+            </li>
+
+            <li class="testimmonials-text-box">
+              <figure class="testimonial">
+                <span class="t-icons">
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                </span>
+                <p class="testimonial-name">
+                  Sarah M. <ion-icon name="checkmark"></ion-icon>
+                </p>
+                <blockquote class="testimonial-text">
+                  "I'm blown away by the quality and style of the clothes I
+                  received from Shop.co. From casual wear to elegant dresses,
+                  every piece I've bought has exceeded my expectations.”
+                </blockquote>
+              </figure>
+            </li>
+
+            <li class="testimmonials-text-box">
+              <figure class="testimonial">
+                <span class="t-icons">
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                </span>
+                <p class="testimonial-name">
+                  Alex K. <ion-icon name="checkmark"></ion-icon>
+                </p>
+                <blockquote class="testimonial-text">
+                  "Finding clothes that align with my personal style used to be
+                  a challenge until I discovered Shop.co. The range of options
+                  they offer is truly remarkable, catering to a variety of
+                  tastes and occasions.”
+                </blockquote>
+              </figure>
+            </li>
+
+            <li class="testimmonials-text-box">
+              <figure class="testimonial">
+                <span class="t-icons">
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                </span>
+                <p class="testimonial-name">
+                  James L. <ion-icon name="checkmark"></ion-icon>
+                </p>
+                <blockquote class="testimonial-text">
+                  "As someone who's always on the lookout for unique fashion
+                  pieces, I'm thrilled to have stumbled upon Shop.co. The
+                  selection of clothes is not only diverse but also on-point
+                  with the latest trends.”
+                </blockquote>
+              </figure>
+            </li>
+
+            <li class="testimmonials-text-box">
+              <figure class="testimonial">
+                <span class="t-icons">
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                  <ion-icon class="testimonial-icon" name="star"></ion-icon>
+                </span>
+                <p class="testimonial-name">
+                  Emily S. <ion-icon name="checkmark"></ion-icon>
+                </p>
+                <blockquote class="testimonial-text">
+                  “I've had so many Where did you get that? moments since
+                  discovering SHOP.CO. The clothes have personality, but they're
+                  still comfortable enough to actually live in. Definitely one
+                  of my favorite finds.”
+                </blockquote>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <section class="cta-section" id="cta">
+          <div class="cta-container">
+            <h2 class="cta-heading">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+
+            <form class="cta" name="Subcribe">
+              <div class="cta-form">
+                <span class="mail"
+                  ><ion-icon class="cta-icon" name="mail-outline"></ion-icon
+                ></span>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="Enter your email address"
+                  name="email"
+                  required
+                />
+              </div>
+              <button class="cta-btn">Subscribe to Newsletter</button>
+            </form>
+          </div>
+        </section>
+        <!-- ///////////////////// -->
+        <div class="footer-container">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img
+                class="logo"
+                alt="Omnifood logo"
+                src="img--/images/SHOP.CO.svg"
+                loading="lazy"
+                decoding="async"
+            /></a>
+
+            <p class="footer-text">
+              We have clothes that suits your style and which you’re proud to
+              wear. From women to men.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-github"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> About </a></li>
+              <li><a class="footer-link" href="#"> Features </a></li>
+              <li><a class="footer-link" href="#"> Works </a></li>
+              <li><a class="footer-link" href="#"> Career </a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Help</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> Customer Support</a></li>
+              <li><a class="footer-link" href="#">Delivery Deals</a></li>
+              <li><a class="footer-link" href="#"> Terms & Conditions </a></li>
+              <li><a class="footer-link" href="#"> Privacy Policy </a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">FAQ</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Account</a></li>
+              <li><a class="footer-link" href="#">Manage Deliveries</a></li>
+              <li><a class="footer-link" href="#">Orders</a></li>
+              <li><a class="footer-link" href="#">Payments</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Free eBooks</a></li>
+              <li><a class="footer-link" href="#">Development Tutorial</a></li>
+              <li><a class="footer-link" href="#">How to - Blog</a></li>
+              <li><a class="footer-link" href="#">Youtube Playlist</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="other-info">
+          <p class="copyright-details">
+            Shop.co &copy; <span class="year">2025</span> All Rights Reserved
+          </p>
+
+          <ul class="supported-payments">
+            <li class="platform-logo">
+              <img alt="visa-logo" src="logos/Visa.svg" />
+            </li>
+            <li class="platform-logo">
+              <img alt="mastercard-logo" src="logos/Mastercard.svg" />
+            </li>
+            <li class="platform-logo">
+              <img alt="paypal-logo" src="logos/Paypal.svg" />
+            </li>
+            <li class="platform-logo">
+              <img alt="apple_pay-logo" src="logos/Pay (1).svg" />
+            </li>
+            <li class="platform-logo">
+              <img alt="google_pay-logo" src="logos/G Pay.svg" />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

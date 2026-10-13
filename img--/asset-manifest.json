@@ -1,0 +1,192 @@
+{
+  "unique_assets": [
+    {
+      "original": "57234b01d5fcac5632cf6823570ca2d1d53d7d73.png",
+      "output": "images/products/product-orange-graphic-tshirt.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 52014
+    },
+    {
+      "original": "fce658e0c17a220fe8bfb1126626f3ab58a761ec.png",
+      "output": "images/models/model-man-tank-top.webp",
+      "original_dimensions": [
+        740,
+        1110
+      ],
+      "output_dimensions": [
+        740,
+        1110
+      ],
+      "output_bytes": 58164
+    },
+    {
+      "original": "bbf411c25fc84f87eeac1062fbe47f49c192d4f2.png",
+      "output": "images/products/product-plaid-shirt.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 126946
+    },
+    {
+      "original": "e01f5d3cd9029bd465a4c7158689ab1619693014.png",
+      "output": "images/products/product-green-cardigan.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 98312
+    },
+    {
+      "original": "e46ed6ac8bdbe2c750dcc6e834bf1d98a4a73b29.png",
+      "output": "images/models/model-man-blazer.webp",
+      "original_dimensions": [
+        900,
+        600
+      ],
+      "output_dimensions": [
+        900,
+        600
+      ],
+      "output_bytes": 37974
+    },
+    {
+      "original": "aa19c69e82cd85a823c989c1c8631bd976e2cbfb.png",
+      "output": "images/models/model-woman-hat.webp",
+      "original_dimensions": [
+        826,
+        660
+      ],
+      "output_dimensions": [
+        826,
+        660
+      ],
+      "output_bytes": 95122
+    },
+    {
+      "original": "e1b774aba32d9a769caba77c08e107a9198dcd6d.png",
+      "output": "images/models/model-man-gray-tshirt.webp",
+      "original_dimensions": [
+        826,
+        620
+      ],
+      "output_dimensions": [
+        826,
+        620
+      ],
+      "output_bytes": 37042
+    },
+    {
+      "original": "b26fea69ccfd8aa5825862cdb9604a4fb4930464.jpg",
+      "output": "images/models/model-couple-black-outfits.webp",
+      "original_dimensions": [
+        2730,
+        4096
+      ],
+      "output_dimensions": [
+        1066,
+        1600
+      ],
+      "output_bytes": 151768
+    },
+    {
+      "original": "89515d714a66d9ca1401101dee4cc689f8bb5ad2.png",
+      "output": "images/products/product-denim-shorts.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 94182
+    },
+    {
+      "original": "769b9d60ff941dde9bc0e54431b8d8fe3182f5e9.png",
+      "output": "images/products/product-blue-jeans.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 113752
+    },
+    {
+      "original": "f180c76808e2ff8a46be56aa933f031aed3abe75.png",
+      "output": "images/products/product-black-jeans.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 39952
+    },
+    {
+      "original": "345742c27cc557f42cf1d489f7cc811856b90e9f.png",
+      "output": "images/products/product-orange-striped-tshirt.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 46788
+    },
+    {
+      "original": "d40da9a3a7234235e66d6695d9d7098fc3289872.png",
+      "output": "images/products/product-black-tshirt.webp",
+      "original_dimensions": [
+        1920,
+        2880
+      ],
+      "output_dimensions": [
+        1067,
+        1600
+      ],
+      "output_bytes": 24776
+    },
+    {
+      "original": "image 11.png",
+      "output": "images/models/model-man-white-tshirt.webp",
+      "original_dimensions": [
+        407,
+        289
+      ],
+      "output_dimensions": [
+        407,
+        289
+      ],
+      "output_bytes": 12734
+    }
+  ],
+  "duplicates": [
+    [
+      "57234b01d5fcac5632cf6823570ca2d1d53d7d73 (1).png",
+      "57234b01d5fcac5632cf6823570ca2d1d53d7d73.png"
+    ]
+  ]
+}
