@@ -748,6 +748,7 @@
   }
 
   .cta-container {
+    margin-top: 4rem;
     width: 40rem;
   }
 
@@ -1083,9 +1084,9 @@
   }
 
   .testimonial {
-    width: 100%;
-    min-height: 0;
-    padding: 1.6rem;
+    width: 30rem;
+    min-height: 8rem;
+    padding: 1rem;
   }
 
   .testimmonials-text-box {
@@ -1141,7 +1142,7 @@
   }
 
   .footer {
-    padding: 20rem 5rem 4rem;
+    padding: 22rem 5rem 4rem;
   }
 
   .footer-text {
@@ -1392,7 +1393,9 @@
   }
 
   .testimonial {
-    padding: 1.2rem;
+    width: 28rem;
+    min-height: 8rem;
+    padding: 1rem;
   }
 
   .testimonial-text,
@@ -1402,7 +1405,7 @@
   }
 
   .testimonial-name {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .testimonial-text {
@@ -1622,7 +1625,9 @@
   }
 
   .testimonial {
-    padding: 1rem;
+    width: 25rem;
+    min-height: 8rem;
+    padding: 1.5rem;
   }
 
   .testimonial-name {
@@ -1635,6 +1640,7 @@
   }
 
   .cta-container {
+    width: 85%;
     padding: 1.4rem 1rem;
   }
 

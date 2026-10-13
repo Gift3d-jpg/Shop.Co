@@ -5,6 +5,15 @@ const header = document.querySelector(".header");
 const menuToggle = document.querySelector(".btn-mobile-nav");
 const searchToggle = document.querySelector(".search-toggle");
 const searchInput = document.querySelector("#site-search .search-input");
+const promoBar = document.querySelector(".promo-bar");
+const promoClose = document.querySelector(".promo-close");
+
+if (promoBar && promoClose) {
+  promoClose.addEventListener("click", () => {
+    promoBar.hidden = true;
+    document.body.classList.add("promo-dismissed");
+  });
+}
 
 if (!header || !menuToggle || !searchToggle) {
   throw new Error("The header is missing a required mobile toggle button.");
@@ -49,3 +58,25 @@ document.addEventListener("keydown", (event) => {
 window
   .matchMedia("(min-width: 59.01em)")
   .addEventListener("change", closeMenuAndSearch);
+
+const testimonialsList = document.querySelector(".testimonials-list");
+
+if (testimonialsList) {
+  const testimonialCards = testimonialsList.querySelectorAll(":scope > li");
+  const testimonialStep =
+    testimonialCards.length > 1
+      ? testimonialCards[1].offsetLeft - testimonialCards[0].offsetLeft
+      : testimonialCards[0]?.getBoundingClientRect().width ?? 0;
+
+  document
+    .querySelectorAll("[data-testimonial-scroll]")
+    .forEach((button) => {
+      button.addEventListener("click", () => {
+        const direction = button.getAttribute("data-testimonial-scroll");
+        testimonialsList.scrollBy({
+          left: direction === "next" ? testimonialStep : -testimonialStep,
+          behavior: "smooth",
+        });
+      });
+    });
+}

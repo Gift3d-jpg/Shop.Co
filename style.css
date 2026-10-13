@@ -68,6 +68,14 @@ body {
   box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.12);
 }
 
+.promo-bar[hidden] {
+  display: none;
+}
+
+body.promo-dismissed .header {
+  top: 0;
+}
+
 .promo-text {
   margin: 0;
   font-size: 1.2rem;
@@ -630,14 +638,18 @@ p {
   cursor: pointer;
 }
 
-.arrow-btn :hover,
+.arrow-btn:hover,
 .arrow-btn:active {
   color: #222;
-  transition: all 1s;
   transform: scale(1.1);
   transition:
     color 0.6s ease,
     transform 0.3s ease;
+}
+
+.arrow-btn:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 0.4rem;
 }
 
 .testimonials-list {
@@ -645,9 +657,22 @@ p {
   flex-direction: row;
   gap: 1.5rem;
   align-items: stretch;
-  overflow-x: scroll;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   list-style: none;
   margin-bottom: 25rem;
+}
+
+.testimonials-list::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonials-list > li {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
 }
 
 .testimonial {
